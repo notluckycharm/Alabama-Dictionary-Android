@@ -2,9 +2,11 @@
 
 package com.example.alabamadictionary
 
-import androidx.compose.ui.text.font.FontStyle
 import android.content.Context
+import android.media.MediaPlayer
 import android.os.Bundle
+import android.util.Log
+import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
@@ -15,9 +17,11 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
+import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
+import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
@@ -26,12 +30,14 @@ import androidx.compose.foundation.layout.wrapContentWidth
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.lazy.items
+import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Settings
-import androidx.compose.material3.Divider
+import androidx.compose.material.icons.filled.VolumeUp
 import androidx.compose.material3.DrawerState
 import androidx.compose.material3.DrawerValue
 import androidx.compose.material3.ExperimentalMaterial3Api
@@ -51,8 +57,10 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.ImeAction
 import androidx.compose.ui.tooling.preview.Preview
@@ -67,11 +75,8 @@ import kotlinx.coroutines.launch
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.json.Json
-import java.util.UUID
 import kotlin.collections.listOf
 import kotlin.text.Regex
-import kotlin.text.slice
-
 
 @Serializable
 data class DictionaryEntry(
@@ -99,6 +104,32 @@ data class DictionaryData(
 )
 
 private val json = Json { ignoreUnknownKeys = true }
+
+fun playAudioFromVariableName(context: Context, fileName: String) {
+    val resourceId = context.resources.getIdentifier(fileName, "raw", context.packageName)
+
+    if (resourceId != 0) {
+        val mediaPlayer = MediaPlayer.create(context, resourceId)
+        mediaPlayer.setOnCompletionListener { mp ->
+            Log.d("AudioPlayer", "Playback completed")
+            mp.release()
+        }
+        mediaPlayer.setOnPreparedListener {
+            Log.d("AudioPlayer", "Playback started")
+            it.start()
+        }
+        mediaPlayer.setOnErrorListener { mp, what, extra ->
+            Log.e("AudioPlayer", "Playback error: what=$what, extra=$extra")
+            mp.release()
+            true
+        }
+    }
+    else {
+        // Handle the case where the resource is not found
+        Log.e("AudioPlayer", "Resource not found: $fileName")
+        Toast.makeText(context, "Error playing audio", Toast.LENGTH_SHORT).show()
+    }
+}
 
 fun loadJsonFromAssets(context: Context, fileName: String): DictionaryData {
     val jsonString = context.assets.open(fileName).use { inputStream ->
@@ -229,10 +260,10 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-
         val loadedEntries = loadJsonFromAssets(this, "dict.json").words
         allEntries = loadedEntries
         setContent {
+            val context = LocalContext.current
             var drawerState = rememberDrawerState(initialValue = DrawerValue.Closed)
             val navController = rememberNavController()
             AlabamaDictionaryTheme {
@@ -303,7 +334,8 @@ fun Results(navController: NavHostController) {
 @Composable
 fun Result(entry: DictionaryEntry, navController: NavHostController) {
     Column(
-        modifier = Modifier.padding(horizontal = 10.dp, vertical = 15.dp)
+        modifier = Modifier
+            .padding(horizontal = 10.dp, vertical = 15.dp)
             .clickable {
                 navController.navigate("entry/${entry.lemma}")
             }
@@ -418,7 +450,8 @@ fun SearchField(drawerState: DrawerState) {
 @Composable
 fun CharRow(onCharClick: (Char) -> Unit) {
     LazyRow(
-        modifier = Modifier.fillMaxWidth()
+        modifier = Modifier
+            .fillMaxWidth()
             .padding(bottom = 10.dp),
         horizontalArrangement = Arrangement.Center
     ) {
@@ -522,9 +555,94 @@ fun SettingsDrawer() {
 }
 
 @Composable
+fun Label(text: String) {
+    Box(
+        modifier = Modifier
+            .background(Color.LightGray)
+            .fillMaxWidth()
+    ) {
+        Text(
+            text = text,
+            modifier = Modifier.padding(15.dp),
+            fontSize = textSize.intValue.sp
+        )
+    }
+}
+
+@Composable
+fun LiParadigm(entry: DictionaryEntry) {
+    Label("Inflectional Stems")
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceBetween
+    ){
+        Text(entry.lemma + "li", fontSize = textSize.intValue.sp, modifier=Modifier.padding(end = 5.dp))
+        Text("first person singular", fontSize = textSize.intValue.sp, fontStyle = FontStyle.Italic)
+    }
+    val pPs = entry.principalPart.split(", ")
+    val persons = listOf("second person singular", "first person plural", "second person plural")
+    val principalPartsWithPersons = pPs.zip(persons)
+    principalPartsWithPersons.forEach { (part, person) ->
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ){
+            Text(part, fontSize = textSize.intValue.sp, modifier=Modifier.padding(end = 5.dp))
+            Text(person, fontSize = textSize.intValue.sp, fontStyle = FontStyle.Italic)
+        }
+    }
+    Row(
+        modifier = Modifier.fillMaxWidth(),
+        horizontalArrangement = Arrangement.SpaceBetween
+    ){
+        Text("ho" + entry.lemma, fontSize = textSize.intValue.sp, modifier=Modifier.padding(end = 5.dp))
+        Text("third person plural", fontSize = textSize.intValue.sp, fontStyle = FontStyle.Italic)
+    }
+}
+
+@Composable
+fun ChaParadigm(entry: DictionaryEntry) {
+    Label("Inflectional Stems")
+    val persons = listOf("my", "your", "his/her/their", "our", "y'all's")
+    val defShort = entry.definition.split(";")[0].split(',')[0]
+    var stem = ""
+    if (arrayOf("i", "o", "ì", "í", "ó", "ò", "a", "á", "à").contains(entry.lemma[0].toString())) {
+        stem = entry.lemma.drop(1)
+    }
+    else {
+        stem = entry.lemma
+    }
+    var pPs = listOf("cha${stem}", "chi${stem}", entry.lemma, "ko${stem}", "hachi${stem}")
+    pPs = pPs.map { pp ->
+        if (pp == entry.lemma){
+            pp
+        }
+        else{
+            when {
+                entry.lemma.startsWith("a") -> "a$pp"
+                entry.lemma.startsWith("á") -> "á$pp"
+                entry.lemma.startsWith("à") -> "à$pp"
+                else -> pp
+            }
+        }
+    }
+    val principalPartsWithPersons = pPs.zip(persons)
+    principalPartsWithPersons.forEach { (part, person) ->
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceBetween
+        ){
+            Text(part, fontSize = textSize.intValue.sp, modifier=Modifier.padding(end = 5.dp))
+            Text("$person $defShort", fontSize = textSize.intValue.sp, fontStyle = FontStyle.Italic)
+        }
+    }
+}
+
+@Composable
 fun Details(entry: DictionaryEntry, navController: NavHostController) {
     Scaffold(
-        modifier = Modifier.fillMaxSize()
+        modifier = Modifier
+            .fillMaxSize()
             .padding(horizontal = 20.dp),
         topBar = {
             TopAppBar(
@@ -540,19 +658,31 @@ fun Details(entry: DictionaryEntry, navController: NavHostController) {
             )
         },
     ) { innerPadding ->
-        Column( modifier = Modifier.padding(innerPadding)
+        Column( modifier = Modifier.padding(innerPadding).verticalScroll(rememberScrollState()),
             ) {
             Row(
-                modifier = Modifier.fillMaxWidth()
-                ,
-                horizontalArrangement = Arrangement.Center
-
+                modifier = Modifier.fillMaxWidth(),
+                horizontalArrangement = Arrangement.Center,
+                verticalAlignment = Alignment.CenterVertically
             ){
                 Text(
                     text = entry.lemma,
                     fontWeight = FontWeight.Bold,
                     fontSize = (textSize.intValue + 4).sp,
                 )
+                if (entry.audio.isNotEmpty()) {
+                    val context = LocalContext.current
+                    Spacer(modifier = Modifier.height(16.dp))
+                    IconButton(
+                        onClick = { playAudioFromVariableName(context, entry.audio[0]) }, // Trigger audio playback
+                        modifier = Modifier.size(48.dp)
+                    ) {
+                        Icon(
+                            imageVector = Icons.Default.VolumeUp, // Speaker icon
+                            contentDescription = "Play Audio"
+                        )
+                    }
+                }
             }
             val negative = allEntries.find { it.definition == "Negative form of " + entry.lemma }
             negative?.let {
@@ -569,7 +699,7 @@ fun Details(entry: DictionaryEntry, navController: NavHostController) {
             }
             val defs = entry.definition.split(";")
             defs.forEachIndexed { index, def ->
-                if (def.take(3) == "to " && entry.wordClass != "nan" && !entry.wordClass?.contains(";")!!) {
+                if (index == 0 && def.take(3) == "to " && entry.wordClass != "nan" && !entry.wordClass?.contains(";")!!) {
                     Text(
                         text = entry.wordClass + " Verb",
                         color = Color.Gray,
@@ -588,52 +718,13 @@ fun Details(entry: DictionaryEntry, navController: NavHostController) {
                 }
             }
             if (entry.principalPart != "nan" && entry.wordClass?.contains("-LI") == true) {
-                Box(
-                    modifier = Modifier.background(Color.LightGray).fillMaxWidth()
-                ) {
-                    Text(
-                       text = "Inflectional Stems",
-                        modifier = Modifier.padding(15.dp),
-                        fontSize = textSize.intValue.sp
-                    )
-                }
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween
-                ){
-                    Text(entry.lemma + "li", fontSize = textSize.intValue.sp, modifier=Modifier.padding(end = 5.dp))
-                    Text("first person singular", fontSize = textSize.intValue.sp, fontStyle = FontStyle.Italic)
-                }
-                val pPs = entry.principalPart.split(", ")
-                val persons = listOf("second person singular", "first person plural", "second person plural")
-                val principalPartsWithPersons = pPs.zip(persons)
-                principalPartsWithPersons.forEach { (part, person) ->
-                    Row(
-                        modifier = Modifier.fillMaxWidth(),
-                        horizontalArrangement = Arrangement.SpaceBetween
-                    ){
-                        Text(part, fontSize = textSize.intValue.sp, modifier=Modifier.padding(end = 5.dp))
-                        Text(person, fontSize = textSize.intValue.sp, fontStyle = FontStyle.Italic)
-                    }
-                }
-                Row(
-                    modifier = Modifier.fillMaxWidth(),
-                    horizontalArrangement = Arrangement.SpaceBetween
-                ){
-                    Text("ho" + entry.lemma, fontSize = textSize.intValue.sp, modifier=Modifier.padding(end = 5.dp))
-                    Text("third person plural", fontSize = textSize.intValue.sp, fontStyle = FontStyle.Italic)
-                }
+                LiParadigm(entry)
+            }
+            else if (entry.wordClass == "CHA-" && entry.definition.take(3) != "to ") {
+                ChaParadigm(entry)
             }
             if (entry.sentences.isNotEmpty()) {
-                Box(
-                    modifier = Modifier.background(Color.LightGray).fillMaxWidth()
-                ) {
-                    Text(
-                        text = "Example Sentences",
-                        modifier = Modifier.padding(15.dp),
-                        fontSize = textSize.intValue.sp
-                    )
-                }
+                Label("Example Sentences")
                     Column(modifier = Modifier.padding(10.dp)) {
                         entry.sentences.forEach { sentence ->
                             sentence.akz?.let { Text(it, fontWeight = FontWeight.Bold, fontSize = textSize.intValue.sp ) }

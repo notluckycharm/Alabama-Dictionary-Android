@@ -2833,7 +2833,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "kóosi-fe"
+                "kóosi_fe"
             ]
         },
         {
@@ -3541,7 +3541,7 @@
                 "kowaachi"
             ],
             "audio": [
-                "kowaachosi-jw"
+                "kowaachosi_jw"
             ]
         },
         {
@@ -4565,8 +4565,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "hachonchoba-jw",
-                "hachonchoba-db"
+                "hachonchoba_jw",
+                "hachonchoba_db"
             ]
         },
         {
@@ -4652,7 +4652,7 @@
         {
             "lemma": "hakbiska",
             "definition": "to sneeze",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "hakbisiska, hakbisilka, hakbisaska",
             "derivation": "nan",
             "notes": "nan",
@@ -4922,7 +4922,7 @@
         {
             "lemma": "hakchoobi",
             "definition": "inner ear;ear hole",
-            "class": "CHA-;AM-p",
+            "class": "CHA- or AM-p",
             "principalPart": "nan",
             "derivation": "[/hakcho /oobi]",
             "notes": "nan",
@@ -5036,7 +5036,7 @@
         {
             "lemma": "hakkònni",
             "definition": "to limp, be lame",
-            "class": "CHA-;-LI",
+            "class": "CHA- or -LI",
             "principalPart": "hakkònchi, hakkònhili, hakkònhachi",
             "derivation": "[poss. /hakkòn-li]",
             "notes": "nan",
@@ -5382,7 +5382,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "halki-fe"
+                "halki_fe"
             ]
         },
         {
@@ -5615,7 +5615,7 @@
         {
             "lemma": "hamamahka",
             "definition": "to hum, buzz (of bees or flies)",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "hamamahiska, hamamahilka, hamamahaska",
             "derivation": "[/hamamah-ka\u2081]",
             "notes": "nan",
@@ -6172,7 +6172,7 @@
                 "hánnàa"
             ],
             "audio": [
-                "hánnàali-fe"
+                "hánnàali_fe"
             ]
         },
         {
@@ -6339,8 +6339,8 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "hapi-db",
-                "hapi-jw"
+                "hapi_db",
+                "hapi_jw"
             ]
         },
         {
@@ -6409,7 +6409,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "hapka-fe"
+                "hapka_fe"
             ]
         },
         {
@@ -6429,7 +6429,7 @@
                 "hap"
             ],
             "audio": [
-                "hapka-fe"
+                "hapka_fe"
             ]
         },
         {
@@ -9247,7 +9247,7 @@
         {
             "lemma": "hinaata",
             "definition": "to lead the way, lead someone",
-            "class": "-LI;-LI/CHA-",
+            "class": "-LI or -LI/CHA-",
             "principalPart": "hinaasta, hinaalta, hinaahasta",
             "derivation": "nan",
             "notes": "nan",
@@ -9729,8 +9729,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "hissi-fe",
-                "hissi-lb"
+                "hissi_fe",
+                "hissi_lb"
             ]
         },
         {
@@ -10755,7 +10755,7 @@
         {
             "lemma": "hokcho",
             "definition": "to pass gas",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "hochikcho, holikcho, hohachikcho",
             "derivation": "nan",
             "notes": "nan",
@@ -11921,7 +11921,7 @@
                 "hoopa"
             ],
             "audio": [
-                "holpa-jw"
+                "holpa_jw"
             ]
         },
         {
@@ -12273,7 +12273,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "hompani-jw"
+                "hompani_jw"
             ]
         },
         {
@@ -12381,7 +12381,7 @@
         {
             "lemma": "hóofna",
             "definition": "to smell something",
-            "class": "-LI/CHA-;CHA-/3",
+            "class": "-LI/CHA- or CHA-/3",
             "principalPart": "hochíifna, holíifna, hohachíifna",
             "derivation": "nan",
             "notes": "nan",
@@ -12502,7 +12502,7 @@
                 "hoopa"
             ],
             "audio": [
-                "hoopa-jw"
+                "hoopa_jw"
             ]
         },
         {
@@ -12765,8 +12765,8 @@
                 "hoponi"
             ],
             "audio": [
-                "hopooni-db",
-                "hopooni-fe"
+                "hopooni_db",
+                "hopooni_fe"
             ]
         },
         {
@@ -12953,7 +12953,7 @@
         {
             "lemma": "hoswa",
             "definition": "to urinate",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "hochiswa, holiswa, hohachiswa",
             "derivation": "nan",
             "notes": "nan",
@@ -16564,7 +16564,7 @@
         {
             "lemma": "maapaatohno",
             "definition": "to send (someone) as a messenger to",
-            "class": "-LI/CHA-/CHA-;-LI/CHA-/3",
+            "class": "-LI/CHA-/CHA- or -LI/CHA-/3",
             "principalPart": "maapaatochihno, maapaatolihno, maapaatohachihno",
             "derivation": "[maat-paa- -/tohno]",
             "notes": "nan",
@@ -17985,7 +17985,7 @@
                 "wayàa"
             ],
             "audio": [
-                "maawayàali-db"
+                "maawayàali_db"
             ]
         },
         {
@@ -18232,7 +18232,7 @@
                 "mah"
             ],
             "audio": [
-                "mahli-jw"
+                "mahli_jw"
             ]
         },
         {
@@ -19648,7 +19648,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "móosi-fe"
+                "móosi_fe"
             ]
         },
         {
@@ -19722,7 +19722,7 @@
         {
             "lemma": "móttàaki",
             "definition": "to be showing, be perceived, be seen, be visible",
-            "class": "3;AM-",
+            "class": "3 or AM-",
             "principalPart": "nan",
             "derivation": "nan",
             "notes": "nan",
@@ -24202,7 +24202,7 @@
         {
             "lemma": "onaholchifa",
             "definition": "to be named after",
-            "class": "CHA-;-LI/CHA-",
+            "class": "CHA- or -LI/CHA-",
             "principalPart": "onaholchifchi, onaholchifhili, onaholchifhachi",
             "derivation": "[ona- /ho<l>chifa]",
             "notes": "nan",
@@ -25585,7 +25585,7 @@
                 "tòklo"
             ],
             "audio": [
-                "ontòklo-fe"
+                "ontòklo_fe"
             ]
         },
         {
@@ -25618,7 +25618,7 @@
                 "tótchìina"
             ],
             "audio": [
-                "ontótchìina-fe"
+                "ontótchìina_fe"
             ]
         },
         {
@@ -25906,7 +25906,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "oofa-fe"
+                "oofa_fe"
             ]
         },
         {
@@ -25990,8 +25990,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "oofatta-jw",
-                "oofatta-db"
+                "oofatta_jw",
+                "oofatta_db"
             ]
         },
         {
@@ -26444,8 +26444,8 @@
                 "oompa"
             ],
             "audio": [
-                "oolimpa-jw",
-                "oolimpa-fe"
+                "oolimpa_jw",
+                "oolimpa_fe"
             ]
         },
         {
@@ -27147,7 +27147,7 @@
         {
             "lemma": "ootoba",
             "definition": "to dream",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "ootobatiska, ootobatilka, ootobataska",
             "derivation": "nan",
             "notes": "nan",
@@ -27818,7 +27818,7 @@
                 "óstàa"
             ],
             "audio": [
-                "óstàaka-fe"
+                "óstàaka_fe"
             ]
         },
         {
@@ -28295,7 +28295,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "oyba-fe"
+                "oyba_fe"
             ]
         },
         {
@@ -29791,7 +29791,7 @@
         {
             "lemma": "yimmi",
             "definition": "to believe (something, a proposition)",
-            "class": "CHA-;-LI",
+            "class": "CHA- or -LI",
             "principalPart": "yinchi, yiⁿhili, yiⁿhachi",
             "derivation": "[/yim-li]",
             "notes": "nan",
@@ -30413,7 +30413,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "naani-fe"
+                "naani_fe"
             ]
         },
         {
@@ -31883,7 +31883,7 @@
         {
             "lemma": "nati",
             "definition": "teeth, tooth, false teeth",
-            "class": "CHA-;AM-p",
+            "class": "CHA- or AM-p",
             "principalPart": "nan",
             "derivation": "[/nati, for some im- /nati, /inati]",
             "notes": "nan",
@@ -32423,7 +32423,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "nihtallo-lb"
+                "nihtallo_lb"
             ]
         },
         {
@@ -33185,8 +33185,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "nita-db",
-                "nita-jw"
+                "nita_db",
+                "nita_jw"
             ]
         },
         {
@@ -33778,7 +33778,7 @@
         {
             "lemma": "nokhammi",
             "definition": "to be in a rage, angry, mad",
-            "class": "CHA-;-LI",
+            "class": "CHA- or -LI",
             "principalPart": "nokhanchi, nokhaⁿhili, nokhaⁿhachi",
             "derivation": "[nok- -(/hammi)]",
             "notes": "nan",
@@ -35311,7 +35311,7 @@
                 "chafaa"
             ],
             "audio": [
-                "cháffàaka-fe"
+                "cháffàaka_fe"
             ]
         },
         {
@@ -35635,7 +35635,7 @@
             ],
             "audio": 
                 [
-                    "chákkàali-fe"
+                    "chákkàali_fe"
                 ]
         },
         {
@@ -37444,7 +37444,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "chichoba-db"
+                "chichoba_db"
             ]
         },
         {
@@ -38349,7 +38349,7 @@
         {
             "lemma": "chíkkìili",
             "definition": "to have a litter or nest (of offspring), to be nesting;to have (a few) stored up, have saved;to have a few things in one's care (as caring for someone's children, livestock, pets, library books, etc.)",
-            "class": "3/3; -LI/CHA-",
+            "class": "3/3 or  -LI/CHA-",
             "principalPart": "chíkkìichi, chíkkìihili, chíkkìihachi",
             "derivation": "[/chikìi-li]",
             "notes": "nan",
@@ -38534,7 +38534,7 @@
         {
             "lemma": "chiliita",
             "definition": "to want to go, beg to go",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "chiliitatiska, chiliitatilka, chiliitataska",
             "derivation": "nan",
             "notes": "nan",
@@ -39578,8 +39578,8 @@
                 "chiyah"
             ],
             "audio": [
-                "chiyahli-db",
-                "chiyahli-fe"
+                "chiyahli_db",
+                "chiyahli_fe"
             ]
         },
         {
@@ -39946,7 +39946,7 @@
         {
             "lemma": "chofkoni",
             "definition": "bone;fins and bones (of fish)",
-            "class": "CHA-;AM-p",
+            "class": "CHA- or AM-p",
             "principalPart": "nan",
             "derivation": "nan",
             "notes": "nan",
@@ -39958,7 +39958,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "chofkoni-fe"
+                "chofkoni_fe"
             ]
         },
         {
@@ -41226,7 +41226,7 @@
         {
             "lemma": "chonoska",
             "definition": "heart;heart wood, the hard core of a tree used in making tools",
-            "class": "CHA-;AM-p",
+            "class": "CHA- or AM-p",
             "principalPart": "chatchonoska or chachonoska, potchonoska or pochonoska, hachitchonoska or hachichonoska",
             "derivation": "nan",
             "notes": "nan",
@@ -41270,7 +41270,7 @@
         {
             "lemma": "chonoska hoopa",
             "definition": "to have heart disease, heart trouble",
-            "class": "3;3/AM-",
+            "class": "3 or 3/AM-",
             "principalPart": "nan",
             "derivation": "[/chonoska /hoopa]",
             "notes": "nan",
@@ -41445,7 +41445,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "choopa-lb"
+                "choopa_lb"
             ]
         },
         {
@@ -44234,8 +44234,8 @@
             "audio": []
         },
         {
-            "lemma": "taɬka",
-            "definition": "3;to be squared off (of more than one)",
+            "lemma": "taɬka\u2083",
+            "definition": "to be squared off (of more than one)",
             "class": "nan",
             "principalPart": "nan",
             "derivation": "[/taɬ(ìi)-ka\u2081]",
@@ -44301,7 +44301,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "táɬɬàapi-fe"
+                "táɬɬàapi_fe"
             ]
         },
         {
@@ -44579,7 +44579,7 @@
         {
             "lemma": "tammi",
             "definition": "to fall, fall down (accidentally) (of one);to pass away;to fall down on purpose, take a pratfall (of one)",
-            "class": "Other Verb",
+            "class": "CHA-",
             "principalPart": "nan",
             "derivation": "[/tam-li]",
             "notes": "nan",
@@ -45222,8 +45222,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "tapassòola-db",
-                "tapassòola-jw"
+                "tapassòola_db",
+                "tapassòola_jw"
             ]
         },
         {
@@ -45537,7 +45537,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "tayyi-fe"
+                "tayyi_fe"
             ]
         },
         {
@@ -45572,7 +45572,7 @@
             ],
             "audio": 
                 [
-                    "tayyiha-fe"
+                    "tayyiha_fe"
                 ]
         },
         {
@@ -45977,7 +45977,7 @@
             "relatedTerms": [],
             "audio": 
                 [
-                    "tikba-fe"
+                    "tikba_fe"
                 ]
         },
         {
@@ -46868,7 +46868,7 @@
         {
             "lemma": "toba",
             "definition": "to become, be made;to make",
-            "class": "-LI/3;CHA-/3",
+            "class": "-LI/3 or CHA-/3",
             "principalPart": "tobatiska, tobatilka, tobataska",
             "derivation": "nan",
             "notes": "nan",
@@ -47343,7 +47343,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "tòklo-fe"
+                "tòklo_fe"
             ]
         },
         {
@@ -48016,7 +48016,7 @@
         {
             "lemma": "toobakaali",
             "definition": "to be shiny (of a reflecting surface);to be white",
-            "class": "3;CHA-",
+            "class": "3 or CHA-",
             "principalPart": "nan",
             "derivation": "nan",
             "notes": "nan",
@@ -48431,7 +48431,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "tótchìina-fe"
+                "tótchìina_fe"
             ]
         },
         {
@@ -48443,8 +48443,8 @@
             "notes": "nan",
             "sentences": [],
             "relatedTerms": [
-                "tótchìina-jw",
-                "tótchìina-fe"
+                "tótchìina_jw",
+                "tótchìina_fe"
             ],
             "audio": []
         },
@@ -48479,7 +48479,7 @@
         },
         {
             "lemma": "ipaachi",
-            "definition": "to feed by hand, spoon feed, force-feed, make eat",
+            "definition": "to feed by hand, spoon feed, force_feed, make eat",
             "class": "-LI/CHA-",
             "principalPart": "ipaatiska, ipaatilka, ipaataska",
             "derivation": "[/(i)pa-chi\u2081]",
@@ -48745,7 +48745,7 @@
         {
             "lemma": "isbakahli",
             "definition": "to throw down (as in wrestling);to throw with (e.g a certain hand);to throw at with something;to throw away;to rape",
-            "class": "-LI/CHA-;-LI/CHA-/3",
+            "class": "-LI/CHA- or -LI/CHA-/3",
             "principalPart": "isbakahchi, isbakahhili, isbakahhachi",
             "derivation": "[ist- /bakah-li]",
             "notes": "nan",
@@ -49504,7 +49504,7 @@
         {
             "lemma": "ischoopa",
             "definition": "to sell;to buy with (a medium of exchange);store",
-            "class": "-LI/3;-LI/3/3",
+            "class": "-LI/3 or -LI/3/3",
             "principalPart": "ischoospa, ischoolpa, ischoohaspa",
             "derivation": "[ist- /choopa]",
             "notes": "nan",
@@ -49921,7 +49921,7 @@
                 "isko"
             ],
             "audio": [
-                "isilka-fe"
+                "isilka_fe"
             ]
         },
         {
@@ -50794,7 +50794,7 @@
         {
             "lemma": "isɬakhaniichi",
             "definition": "to get blood on, to bloody",
-            "class": "-LI/CHA-;-LI/AM-",
+            "class": "-LI/CHA- or -LI/AM-",
             "principalPart": "isɬakhaniitiska, isɬakhaniitilka, isɬakhaniitaska",
             "derivation": "[ist- /ɬakhani-chi\u2081]",
             "notes": "nan",
@@ -54996,7 +54996,7 @@
         {
             "lemma": "istiltootammi",
             "definition": "to go and fall into the water",
-            "class": "CHA-;-LI",
+            "class": "CHA- or -LI",
             "principalPart": "istiltootanchi, istiltootaⁿhili, istiltootaⁿhachi",
             "derivation": "[ist-ilt-oo- /tammi]",
             "notes": "nan",
@@ -56959,7 +56959,7 @@
                 "ka"
             ],
             "audio": [
-                "istinka-fe"
+                "istinka_fe"
             ]
         },
         {
@@ -57029,7 +57029,7 @@
         },
         {
             "lemma": "istiⁿɬakoffi",
-            "definition": "to misspeak, misunderstand, make a mistake about, err, be wrong, incorrect, at fault;to miss out on accidentally;to miss on purpose, skip, let go by (as an opportunity)",
+            "definition": "to misspeak, misunderstand, make a mistake about, err, be wrong, incorrect, at fault;to miss out on accidentally;to miss on purpose, skip, let go by (as an opportunity);mistake, error, fault",
             "class": "AM-/3",
             "principalPart": "nan",
             "derivation": "[ist-im- /ɬakof-li]",
@@ -59077,7 +59077,7 @@
         {
             "lemma": "istootoba",
             "definition": "to dream about",
-            "class": "-LI/CHA-;CHA-/CHA-",
+            "class": "-LI/CHA- or CHA-/CHA-",
             "principalPart": "istootobatiska, istootobatilka, istootobataska",
             "derivation": "[ist- /ootoba]",
             "notes": "nan",
@@ -60210,7 +60210,7 @@
         {
             "lemma": "itatammi",
             "definition": "to fall to the ground, fall flat",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "itatanchi, itataⁿhili, itataⁿhachi",
             "derivation": "[ita- /tammi]",
             "notes": "nan",
@@ -62041,7 +62041,7 @@
         {
             "lemma": "ittapotòolichi",
             "definition": "to come together, come up to one another (of two);to put (two) together",
-            "class": "-LI;-LI/3",
+            "class": "-LI or -LI/3",
             "principalPart": "ittapotòochichi, ittapotòohilichi, ittapotòohachichi",
             "derivation": "[itti-a- /potòo-li-chi\u2081]",
             "notes": "nan",
@@ -62355,7 +62355,7 @@
         {
             "lemma": "ittayommi",
             "definition": "to mix up, mix together, intermingle (of things that should not be mixed);to intermarry;to be mixed up",
-            "class": "-LI/3;-LI",
+            "class": "-LI/3 or -LI",
             "principalPart": "ittayonchi, ittayoⁿhili, ittayoⁿhachi",
             "derivation": "[itti- /ayom-li]",
             "notes": "nan",
@@ -62523,7 +62523,7 @@
         {
             "lemma": "ittibatatli",
             "definition": "to close up on oneself (as a spring compressing or as a turtle ducking its head in), snap together (as a purse, suitcase, etc.);to come together and meet, put the sides together",
-            "class": "-LI;-LI/3",
+            "class": "-LI or -LI/3",
             "principalPart": "ittibatatchi, ittibatathili, ittibatathachi",
             "derivation": "[itti- /batat-li]",
             "notes": "nan",
@@ -62561,8 +62561,8 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "ittibi-db",
-                "ittibi-fe"
+                "ittibi_db",
+                "ittibi_fe"
             ]
         },
         {
@@ -62794,7 +62794,7 @@
         {
             "lemma": "ittihólba",
             "definition": "to be the same;to look like each other, resemble each other",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "-, ittiholíilba, ittihohachíilba",
             "derivation": "[itti- /holba]",
             "notes": "nan",
@@ -63305,7 +63305,7 @@
         {
             "lemma": "ittiɬi istintalka",
             "definition": "eyeglasses, sunglasses",
-            "class": "CHA-;AM-p",
+            "class": "CHA- or AM-p",
             "principalPart": "nan",
             "derivation": "[/ittiɬi ist-im- /tal(àa)-ka\u2081]",
             "notes": "nan",
@@ -63488,7 +63488,7 @@
         {
             "lemma": "ittimáali",
             "definition": "to be the same, identical, similar, resemble each other",
-            "class": "CHA-;-",
+            "class": "CHA- or -",
             "principalPart": "nan",
             "derivation": "[itti- /máali]",
             "notes": "nan",
@@ -65503,7 +65503,7 @@
         {
             "lemma": "iyyàaɬi",
             "definition": "to be master of someone, owner",
-            "class": "-LI/AM-;-LI/CHA-",
+            "class": "-LI/AM- or -LI/CHA-",
             "principalPart": "iyyàaɬchi, iyyàaɬhili, iyyàaɬhachi",
             "derivation": "[/iyyaaɬi or for some im- -/yaɬi]",
             "notes": "nan",
@@ -65801,7 +65801,7 @@
         {
             "lemma": "iyyimmi",
             "definition": "to believe in, believe somebody, have faith in",
-            "class": "CHA-/AM-;-LIE/AM-",
+            "class": "CHA-/AM- or -LIE/AM-",
             "principalPart": "iyyinchi, iyyiⁿhili, iyyiⁿhachi",
             "derivation": "[im- /yim-li]",
             "notes": "nan",
@@ -66248,7 +66248,7 @@
         {
             "lemma": "ɬabahka",
             "definition": "to snore",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "ɬabahiska, ɬabahilka, ɬabahaska",
             "derivation": "nan",
             "notes": "nan",
@@ -71276,8 +71276,8 @@
                 "bit"
             ],
             "audio": [
-                "bitli-db",
-                "bitli-fe"
+                "bitli_db",
+                "bitli_fe"
             ]
         },
         {
@@ -71988,7 +71988,7 @@
         {
             "lemma": "boyòoli",
             "definition": "for dust to rise in a cloud;to disperse, scatter (of more than one)",
-            "class": "3;-LI",
+            "class": "3 or -LI",
             "principalPart": "-, boyòohili, boyòohachi",
             "derivation": "[/boyo(t)-li]",
             "notes": "nan",
@@ -73466,8 +73466,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "waliichi-fe",
-                "waliichi-db"
+                "waliichi_fe",
+                "waliichi_db"
             ]
         },
         {
@@ -73498,8 +73498,8 @@
                 "walii"
             ],
             "audio": [
-                "waliika-db",
-                "waliika-fe"
+                "waliika_db",
+                "waliika_fe"
             ]
         },
         {
@@ -74081,8 +74081,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "waso-db",
-                "waso-jw"
+                "waso_db",
+                "waso_jw"
             ]
         },
         {
@@ -74271,7 +74271,7 @@
                 "wayàa"
             ],
             "audio": [
-                "wayàali-fe"
+                "wayàali_fe"
             ]
         },
         {
@@ -75700,7 +75700,7 @@
         {
             "lemma": "áalo",
             "definition": "to wish for, hope for something, want, expect;to wonder about, think about, guess at, worry about",
-            "class": "-LI/3;-LI/CHA-",
+            "class": "-LI/3 or -LI/CHA-",
             "principalPart": "assíilo, alíilo, ashachíilo",
             "derivation": "[/alo (?)]",
             "notes": "nan",
@@ -75974,7 +75974,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "áapo-fe"
+                "áapo_fe"
             ]
         },
         {
@@ -76156,7 +76156,7 @@
                 "sobot"
             ],
             "audio": [
-                "aasobohli-fe"
+                "aasobohli_fe"
             ]
         },
         {
@@ -77478,7 +77478,7 @@
                 "ka"
             ],
             "audio": [
-                "aatinka-fe"
+                "aatinka_fe"
             ]
         },
         {
@@ -77548,7 +77548,7 @@
                 "choba"
             ],
             "audio": [
-                "aatipachoba-db"
+                "aatipachoba_db"
             ]
         },
         {
@@ -79886,7 +79886,7 @@
                 "abos"
             ],
             "audio": [
-                "aboska-fe"
+                "aboska_fe"
             ]
         },
         {
@@ -79957,7 +79957,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "achaapa-fe"
+                "achaapa_fe"
             ]
         },
         {
@@ -80285,7 +80285,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "achihba-lb"
+                "achihba_lb"
             ]
         },
         {
@@ -80888,7 +80888,7 @@
         {
             "lemma": "afaaka",
             "definition": "to laugh;to smile, grin",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "afaahiska, afaahilka, afaahaska",
             "derivation": "[/afaa-ka\u2081]",
             "notes": "nan",
@@ -80902,8 +80902,8 @@
                 "afaa"
             ],
             "audio": [
-                "afaaka-db",
-                "afaaka-fe"
+                "afaaka_db",
+                "afaaka_fe"
             ]
         },
         {
@@ -80957,7 +80957,7 @@
         {
             "lemma": "afalohka",
             "definition": "to yawn",
-            "class": "CHA-;-LI",
+            "class": "CHA- or -LI",
             "principalPart": "afalohiska, afalohilka, afalohaska",
             "derivation": "[/afaloh-ka\u2081]",
             "notes": "nan",
@@ -81873,7 +81873,7 @@
                 "hissi"
             ],
             "audio": [
-                "aissi-jw"
+                "aissi_jw"
             ]
         },
         {
@@ -83934,7 +83934,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "alikchi-jw"
+                "alikchi_jw"
             ]
         },
         {
@@ -84354,7 +84354,7 @@
                 "alot"
             ],
             "audio": [
-                "alotka-fe"
+                "alotka_fe"
             ]
         },
         {
@@ -84642,7 +84642,7 @@
                 "atoba"
             ],
             "audio": [
-                "altoba-fe"
+                "altoba_fe"
             ]
         },
         {
@@ -84817,7 +84817,7 @@
         {
             "lemma": "aɬaplichi",
             "definition": "to reflect off of something;to flash, shine, sparkle on something, shine in someone's eyes, blind with light;to make shine (e.g. by buffing), polish",
-            "class": "3/CHA-;-LI/CHA-",
+            "class": "3/CHA- or -LI/CHA-",
             "principalPart": "aɬapchichi, aɬaphilichi, aɬaphachichi",
             "derivation": "[/aɬap-li-chi\u2081]",
             "notes": "nan",
@@ -84923,7 +84923,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "aɬíina-fe"
+                "aɬíina_fe"
             ]
         },
         {
@@ -85058,7 +85058,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "aɬɬa-fe"
+                "aɬɬa_fe"
             ]
         },
         {
@@ -88128,7 +88128,7 @@
         {
             "lemma": "atibòoli",
             "definition": "to burp up, belch, regurgitate (as a cow to chew cud)",
-            "class": "CHA-;-LI",
+            "class": "CHA- or -LI",
             "principalPart": "atibòochi, atibòohili, atibòohachi",
             "derivation": "[/atibòo-li]",
             "notes": "nan",
@@ -88357,7 +88357,7 @@
         {
             "lemma": "atobiilachi",
             "definition": "to burn something, scorch (food) on the stove",
-            "class": "-LI/CHA-;-LI/3",
+            "class": "-LI/CHA- or -LI/3",
             "principalPart": "atobiilachiska, atobiilachilka, atobiilachaska",
             "derivation": "[poss. a- /tobila-chi\u2081]",
             "notes": "nan",
@@ -88739,7 +88739,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "awo-fe"
+                "awo_fe"
             ]
         },
         {
@@ -88772,7 +88772,7 @@
         {
             "lemma": "ayaabi",
             "definition": "to be greedy about something",
-            "class": "-LI/3;CHA-",
+            "class": "-LI/3 or CHA-",
             "principalPart": "ayaabitiska, ayaabitilka, ayaabitaska",
             "derivation": "nan",
             "notes": "nan",
@@ -88965,7 +88965,7 @@
         {
             "lemma": "ayákhàasi",
             "definition": "to be near, next to, close to",
-            "class": "-LI/CHA-;CHA-/3",
+            "class": "-LI/CHA- or CHA-/3",
             "principalPart": "ayákhàasitiska, ayákhàasitilka, ayákhàasitaska",
             "derivation": "[/ayákha-osi]",
             "notes": "nan",
@@ -89450,7 +89450,7 @@
         {
             "lemma": "ayokchi",
             "definition": "to impregnate, beget, get with child, make someone pregnant",
-            "class": "-LI/CHA-;-LI/AM-",
+            "class": "-LI/CHA- or -LI/AM-",
             "principalPart": "ayokchiska, ayokchaska, ayokchilka",
             "derivation": "nan",
             "notes": "nan",
@@ -89714,7 +89714,7 @@
         {
             "lemma": "ayosbachi",
             "definition": "to try to forget, forget someone (on purpose), lose someone",
-            "class": "-LI;-LI/3",
+            "class": "-LI or -LI/3",
             "principalPart": "ayosbachiska, ayosbachilka, ayosbachaska",
             "derivation": "[a- /yosba-chi\u2081]",
             "notes": "nan",
@@ -89892,7 +89892,7 @@
         {
             "lemma": "ayyiho",
             "definition": "to take care of in a nice way, treat with respect, treasure, cherish, value, not want anything to happen to",
-            "class": "CHA-/3;3/CHA-",
+            "class": "CHA-/3 or 3/CHA-",
             "principalPart": "nan",
             "derivation": "nan",
             "notes": "nan",
@@ -93116,7 +93116,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "sakba-fe"
+                "sakba_fe"
             ]
         },
         {
@@ -93150,7 +93150,7 @@
         {
             "lemma": "sakbahokfa",
             "definition": "bracelet",
-            "class": "CHA-;AM-p",
+            "class": "CHA- or AM-p",
             "principalPart": "nan",
             "derivation": "[/sakba /hokfa]",
             "notes": "nan",
@@ -95344,7 +95344,7 @@
             ],
             "relatedTerms": [],
             "audio": [
-                "sobayli-fe"
+                "sobayli_fe"
             ]
         },
         {
@@ -96462,7 +96462,7 @@
                 "soo"
             ],
             "audio": [
-                "sooka-lb"
+                "sooka_lb"
             ]
         },
         {
@@ -96946,8 +96946,8 @@
                 "falam"
             ],
             "audio": [
-                "falanka-db",
-                "falanka-fe"
+                "falanka_db",
+                "falanka_fe"
             ]
         },
         {
@@ -97298,7 +97298,7 @@
         {
             "lemma": "fayòoli",
             "definition": "to sway as one walks, swagger, strut, shake the body",
-            "class": "CHA-;-LI",
+            "class": "CHA- or -LI",
             "principalPart": "fayòochi, fayòohili, fayòohachi",
             "derivation": "nan",
             "notes": "nan",
@@ -97314,7 +97314,7 @@
         {
             "lemma": "fayòolichi",
             "definition": "to sway as one walks, swagger, strut, shake the body (of more than one)",
-            "class": "CHA-;-LI",
+            "class": "CHA- or -LI",
             "principalPart": "-, fayòohilichi, fayòohachichi",
             "derivation": "[/fayòo-li-chi\u2082]",
             "notes": "nan",
@@ -97424,8 +97424,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "fiito-db",
-                "fiito-jw"
+                "fiito_db",
+                "fiito_jw"
             ]
         },
         {
@@ -98280,8 +98280,8 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "foosi-db",
-                "foosi-jw"
+                "foosi_db",
+                "foosi_jw"
             ]
         },
         {
@@ -99186,7 +99186,7 @@
         {
             "lemma": "paahahpa",
             "definition": "to be renovated, be made like new;to be renewed (as a license)",
-            "class": "3;CHA-",
+            "class": "3 or CHA-",
             "principalPart": "nan",
             "derivation": "[paa- /hahpa]",
             "notes": "nan",
@@ -101779,7 +101779,7 @@
         {
             "lemma": "passalapka",
             "definition": "to buckle, warp (especially as a wet wood floor);to be sway-backed",
-            "class": "3;CHA-",
+            "class": "3 or CHA-",
             "principalPart": "nan",
             "derivation": "nan",
             "notes": "nan",
@@ -102289,7 +102289,7 @@
                 "pila"
             ],
             "audio": [
-                "pìila-lb"
+                "pìila_lb"
             ]
         },
         {
@@ -102669,7 +102669,7 @@
         {
             "lemma": "piyaafo",
             "definition": "to miss out on (something) entirely, be shut out of (especially in hunting or scoring points);to have bad luck, misfortune, be unlucky",
-            "class": "AM-/3;CHA-/3",
+            "class": "AM-/3 or CHA-/3",
             "principalPart": "nan",
             "derivation": "nan",
             "notes": "nan",
@@ -103163,7 +103163,7 @@
                 "pókkòo"
             ],
             "audio": [
-                "pókkòoli-fe"
+                "pókkòoli_fe"
             ]
         },
         {
@@ -103247,7 +103247,7 @@
                 "tòo"
             ],
             "audio": [
-                "pokkotòoli-jw"
+                "pokkotòoli_jw"
             ]
         },
         {
@@ -104189,7 +104189,7 @@
         {
             "lemma": "poskanahka",
             "definition": "to act like a baby or child, act spoiled",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "poskanahiska, poskanahilka, poskanahaska",
             "derivation": "nan",
             "notes": "nan",
@@ -105730,7 +105730,7 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "ibisaani-lb"
+                "ibisaani_lb"
             ]
         },
         {
@@ -106251,9 +106251,9 @@
             "sentences": [],
             "relatedTerms": [],
             "audio": [
-                "icho-db",
-                "icho-fe",
-                "icho-jw"
+                "icho_db",
+                "icho_fe",
+                "icho_jw"
             ]
         },
         {
@@ -108669,7 +108669,7 @@
                 "choba"
             ],
             "audio": [
-                "iischoba-fe"
+                "iischoba_fe"
             ]
         },
         {
@@ -109220,7 +109220,7 @@
         {
             "lemma": "ikhàalo",
             "definition": "Negative form of haalo",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "nan",
             "derivation": "nan",
             "notes": "nan",
@@ -109266,7 +109266,7 @@
         {
             "lemma": "iki",
             "definition": "mother;mother (of an animal), dam",
-            "class": "CHA-;AM-p",
+            "class": "CHA- or AM-p",
             "principalPart": "chimiki, -, hachimiki",
             "derivation": "nan",
             "notes": "3.PL: aatiki",
@@ -109957,7 +109957,7 @@
                 "ilakomay"
             ],
             "audio": [
-                "ilakomayli-db"
+                "ilakomayli_db"
             ]
         },
         {
@@ -110412,7 +110412,7 @@
         {
             "lemma": "ilbihokfa",
             "definition": "finger ring",
-            "class": "CHA-;AM-p",
+            "class": "CHA- or AM-p",
             "principalPart": "nan",
             "derivation": "[/ilbi /hokfa]",
             "notes": "nan",
@@ -111383,7 +111383,7 @@
         {
             "lemma": "ilihoswa",
             "definition": "to wet on oneself, be incontinent",
-            "class": "-LI;CHA-",
+            "class": "-LI or CHA-",
             "principalPart": "ilihochiswa, iliholiswa, ilihohachiswa",
             "derivation": "[ili- /hoswa]",
             "notes": "nan",
@@ -111882,7 +111882,7 @@
         {
             "lemma": "ilka",
             "definition": "to be said to be so;to be called",
-            "class": "3;CHA-",
+            "class": "3 or CHA-",
             "principalPart": "nan",
             "derivation": "[il- -/ka]",
             "notes": "nan",
@@ -112353,7 +112353,7 @@
         {
             "lemma": "illihla",
             "definition": "to be hungry, starving",
-            "class": "CHA-;AM-",
+            "class": "CHA- or AM-",
             "principalPart": "nan",
             "derivation": "[/illihla or im- /-lihla]",
             "notes": "nan",
@@ -112980,7 +112980,7 @@
         {
             "lemma": "ilolbichi",
             "definition": "to soak oneself;for there to be condensation",
-            "class": "-LI;3",
+            "class": "-LI or 3",
             "principalPart": "ilolbichitiska, ilolbichitilka, ilolbichitaska",
             "derivation": "[ili- /olbi-chi\u2081]",
             "notes": "nan",
@@ -113875,7 +113875,7 @@
                 "ahalo"
             ],
             "audio": [
-                "imahaalochi-fe"
+                "imahaalochi_fe"
             ]
         },
         {
@@ -114326,7 +114326,7 @@
         {
             "lemma": "imalosti",
             "definition": "to like, love, care about, be interested in",
-            "class": "CHA-/CHA-;CHA-/AM-",
+            "class": "CHA-/CHA- or CHA-/AM-",
             "principalPart": "nan",
             "derivation": "[im- /alosti;poss. reanalyzed from /imalosti]",
             "notes": "nan",
@@ -115940,7 +115940,7 @@
         {
             "lemma": "imikhàalo",
             "definition": "Negative form of iⁿháalo",
-            "class": "CHA-/AM-;-LI/AM-",
+            "class": "CHA-/AM- or -LI/AM-",
             "principalPart": "nan",
             "derivation": "[im-ik- /hàalo]",
             "notes": "nan",
@@ -116242,7 +116242,7 @@
         {
             "lemma": "imintanisli",
             "definition": "to scare",
-            "class": "-LI/AM-;-LI/CHA-",
+            "class": "-LI/AM- or -LI/CHA-",
             "principalPart": "imintanissi, imintanishili, imintanishachi",
             "derivation": "[/imintanis-li;for some im- /intanis-li]",
             "notes": "nan",
@@ -117858,7 +117858,7 @@
         {
             "lemma": "impoklichi",
             "definition": "to blow (a horn) for (dogs), call (dogs) by blowing (a horn)",
-            "class": "-LI/AM-/3;-LI/CHA-/3",
+            "class": "-LI/AM-/3 or -LI/CHA-/3",
             "principalPart": "impokchichi, impokhilichi, impokhachichi",
             "derivation": "[im- /pok-li-chi\u2081]",
             "notes": "nan",
@@ -120716,7 +120716,7 @@
                 "naani"
             ],
             "audio": [
-                "inaani-fe"
+                "inaani_fe"
             ]
         },
         {
